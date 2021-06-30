@@ -1,5 +1,9 @@
 // JavaScript Document
 
+//const { $ } = require("dom7");
+
+//const { $ } = require("dom7");
+
 $(window).load(function () {
     "use strict";
     // makes sure the whole site is loaded
@@ -103,8 +107,54 @@ $(document).ready(function () {
 
     });
 
+    $('.portfolio_item').click(function() {
+        //get id of portfolio item clicked
+        var idPortFolioClicked = $(this).attr('id');
+
+        //add custom html content for the specific id
+        if(idPortFolioClicked == "demo01"){
+
+            $('#animatedModal .modal-content').html('<div class="container">'+
+                '<div class="portfolio-padding">'+
+                    '<div class="col-md-8 col-md-offset-2">'+
+                        '<h2><a href="http://bushidoramen.re/" target="_blank">Le Bushido Ramen</a></h2>'+
+                        '<div class="h-50"></div>'+
+                        '<br /> <img src="img/vignette/Site/bushido/vignette_bushido.png" alt="" class="img-responsive" />'+
+                        '<br /> <img src="img/vignette/Site/bushido/vignette_bushido2.png" alt="" class="img-responsive" />'+
+                        '<br /> <img src="img/vignette/Site/bushido/vignette_bushido3.png" alt="" class="img-responsive" />'+
+                        '<br /> </div>'+
+                '</div>'+
+            '</div>');
+
+            //launch modal
+            $("#demo01").animatedModal();
+        }else if(idPortFolioClicked == "demo02"){
+
+            $('#animatedModal .modal-content').html('<div class="modal-content">'+
+            '<div class="container">'+
+                '<div class="portfolio-padding">'+
+                    '<div class="col-md-8 col-md-offset-2">'+
+                        '<h2><a href="https://hostingmedia.fr/" target="_blank">HostingMedia</a></h2>'+
+                        '<div class="h-50"></div>'+
+                        '<br /> <img src="img/vignette/Site/hostingmedia/vignette_hostingMedia.png" alt="" class="img-responsive" />'+
+                        '<br /> <img src="img/vignette/Site/hostingmedia/vignette_hostingMedia2.png" alt="" class="img-responsive" />'+
+                        '<br /> <img src="img/vignette/Site/hostingmedia/vignette_hostingMedia3.png" alt="" class="img-responsive" />'+
+                        '<br /> </div>'+
+                    '</div>'+
+                '</div>'+
+            '</div>');
+
+            //launch modal
+            $("#demo02").animatedModal();
+        }
+       
+
+        console.log(idPortFolioClicked);
+
+      });
+
     //animatedModal
-    $("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").animatedModal();
+    //$("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").animatedModal();
     // Contact Form 	
 
     // validate contact form
