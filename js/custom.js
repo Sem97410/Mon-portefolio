@@ -112,6 +112,7 @@ $(document).ready(function () {
         var idPortFolioClicked = $(this).attr('id');
 
         //add custom html content for the specific id
+
         if(idPortFolioClicked == "demo01"){
 
             $('#animatedModal .modal-content').html('<div class="container">'+
@@ -128,6 +129,7 @@ $(document).ready(function () {
 
             //launch modal
             $("#demo01").animatedModal();
+
         }else if(idPortFolioClicked == "demo02"){
 
             $('#animatedModal .modal-content').html('<div class="modal-content">'+
@@ -146,6 +148,173 @@ $(document).ready(function () {
 
             //launch modal
             $("#demo02").animatedModal();
+
+        }else if(idPortFolioClicked == "demo03"){
+
+            $('#animatedModal .modal-content').html('<div class="modal-content">'+
+            '<div class="container">'+
+                '<div class="portfolio-padding">'+
+                    '<div class="col-md-8 col-md-offset-2">'+
+                        '<h2><a href="page_annexe/Jeux/Floppy bird/floppy.html" target="_blank">Testez le en cliquant ici</a></h2>'+
+                        '<div class="h-50"></div>'+
+                        '<br /> <img src="img/vignette/Jeux/Floppy/vignette_floppy.png" alt="" class="img-responsive" />'+
+                        '<br /> <img src="img/vignette/Jeux/Floppy/vignette_floppy2.png" alt="" class="img-responsive" />'+
+                        '<br /> </div>'+
+                    '</div>'+
+                '</div>'+
+            '</div>');
+
+           
+
+            //launch modal
+            $("#demo03").animatedModal();
+            
+        }else if(idPortFolioClicked == "demo04"){
+
+            $('#animatedModal .modal-content').html('<div class="modal-content">'+
+            '<div class="container">'+
+                '<div class="portfolio-padding">'+
+                    '<div class="col-md-8 col-md-offset-2">'+
+                        '<h2>Grand Etang</a></h2>'+
+                        '<div class="h-50"></div>'+
+                        '<img src="img/vignette/photo/grand_etang.jpg" alt="Photo de Grand Etang" class="img-responsive" />'+
+                    '</div>'+
+                '</div>'+
+            '</div>');
+
+            //launch modal
+            $("#demo04").animatedModal();
+            
+        }else if(idPortFolioClicked == "demo05"){
+
+            $('#animatedModal .modal-content').html('<div class="modal-content">'+
+            '<div class="container">'+
+                '<div class="portfolio-padding">'+
+                    '<div class="col-md-8 col-md-offset-2">'+
+                        '<h2>Grand Etang</a></h2>'+
+                        '<div class="h-50"></div>'+
+                        '<img src="img/vignette/photo/grand_etang2.jpg" alt="Photo de Grand Etang" class="img-responsive" />'+
+                    '</div>'+
+                '</div>'+
+            '</div>');
+
+            //launch modal
+            $("#demo05").animatedModal();
+            
+        }else if(idPortFolioClicked == "demo06"){
+
+            $('#animatedModal .modal-content').html('<div class="modal-content">'+
+            '<div class="container">'+
+                '<div class="portfolio-padding">'+
+                    '<div class="col-md-8 col-md-offset-2">'+
+                        '<h2>Grand Etang</a></h2>'+
+                        '<div class="h-50"></div>'+
+                        '<img src="img/vignette/photo/grand_etang3.jpg" alt="Photo de Grand Etang" class="img-responsive" />'+
+                    '</div>'+
+                '</div>'+
+            '</div>');
+
+            //launch modal
+            $("#demo06").animatedModal();
+            
+        }else if(idPortFolioClicked == "demo07"){
+
+            $('#animatedModal .modal-content').html('<div class="modal-content">'+
+            '<div class="container">'+
+                '<div class="portfolio-padding">'+
+                    '<div class="col-md-8 col-md-offset-2">'+
+                        '<h2>La plaine des sables</a></h2>'+
+                        '<div class="h-50"></div>'+
+                        '<img src="img/vignette/photo/plaine_sables.jpg" alt="Photo de la plaine des sables" class="img-responsive" />'+
+                    '</div>'+
+                '</div>'+
+            '</div>');
+
+            //launch modal
+            $("#demo07").animatedModal();
+            
+        }else if(idPortFolioClicked == "demo08"){
+
+            $('#animatedModal .modal-content').html('<div class="modal-content">'+
+            '<div class="container">'+
+                '<div class="portfolio-padding">'+
+                    '<div class="col-md-8 col-md-offset-2">'+
+                        '<h2>La plaine des sables</a></h2>'+
+                        '<div class="h-50"></div>'+
+                        '<img src="img/vignette/photo/plaine_sables2.jpg" alt="Photo de la plaine des sables" class="img-responsive" />'+
+                    '</div>'+
+                '</div>'+
+            '</div>');
+
+            //launch modal
+            $("#demo08").animatedModal();
+            
+        }else if(idPortFolioClicked == "demo09"){
+
+            $('#animatedModal .modal-content').html('<div class="modal-content">'+
+            '<div class="container">'+
+                '<div class="portfolio-padding">'+
+                    '<div class="col-md-8 col-md-offset-2">'+
+                        '<h2>La plaine de sables</a></h2>'+
+                        '<div class="h-50"></div>'+
+                        '<img src="img/vignette/photo/plaine_sables3.jpg" alt="Photo de Grand Etang" class="img-responsive" />'+
+                    '</div>'+
+                '</div>'+
+            '</div>');
+
+            //launch modal
+            $("#demo09").animatedModal();
+            
+        }else if(idPortFolioClicked == "demo10"){
+
+            $('#animatedModal .modal-content').html('<div class="modal-content">'+
+            '<div class="container">'+
+                '<div class="portfolio-padding">'+
+                    '<div class="col-md-8 col-md-offset-2">'+
+                        '<h2>Premier essai d\' un paysage</a></h2>'+
+                        '<div class="h-50"></div>'+
+                        '<img src="img/vignette/Dessin/Paysage.png" alt="Dessin paysage" class="img-responsive" />'+
+                    '</div>'+
+                '</div>'+
+            '</div>');
+
+            //launch modal
+            $("#demo10").animatedModal();
+            
+        }else if(idPortFolioClicked == "demo11"){
+
+            $('#animatedModal .modal-content').html('<div class="modal-content">'+
+            '<div class="container">'+
+                '<div class="portfolio-padding">'+
+                    '<div class="col-md-8 col-md-offset-2">'+
+                        '<h2>Entrainement sur les formes basique</a></h2>'+
+                        '<div class="h-50"></div>'+
+                        '<img src="img/vignette/Dessin/formes.jpg" alt="Dessin formes" class="img-responsive" />'+
+                    '</div>'+
+                '</div>'+
+            '</div>');
+
+
+            //launch modal
+            $("#demo11").animatedModal();
+            
+        }else if(idPortFolioClicked == "demo12"){
+
+            $('#animatedModal .modal-content').html('<div class="modal-content">'+
+            '<div class="container">'+
+                '<div class="portfolio-padding">'+
+                    '<div class="col-md-8 col-md-offset-2">'+
+                        '<h2>Entrainement sur les formes basique</a></h2>'+
+                        '<div class="h-50"></div>'+
+                        '<img src="img/vignette/Dessin/perspective_ombre.jpg" alt="Dessin perspective et ombre" class="img-responsive" />'+
+                    '</div>'+
+                '</div>'+
+            '</div>');
+
+
+            //launch modal
+            $("#demo12").animatedModal();
+            
         }
        
 
