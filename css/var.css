@@ -1,0 +1,86 @@
+:root{
+
+/* Table of Content
+==================================================
+	- Google fonts & font family -
+	- typography -
+	- General -
+    - Preloader -
+	- Header -
+    - home section -
+    - About section -
+    - experience section -
+    - projects section -
+    - Contact section -
+    - Responsive media queries -
+*/
+
+/*
+font-family: 'Playfair Display', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+
+/* typography
+==================================================*/
+
+/*Font-family*/
+  --title-font1 : 'Playfair Display', serif;
+  --title-font2 : 'Lato', sans-serif;
+
+  /*Font-size*/
+  --h1-font-size : 80px;
+  --h1-font-height : 70px;
+
+  /*Font-color*/
+
+  /*Font margin*/
+  --h4-margin : 40px;
+
+  /*Font-weight*/
+
+/* General
+
+ /* Main site color  */
+ --main-site-special-text-color : #425BB5;
+ 
+
+
+
+/* preloader
+==================================================*/
+
+
+
+
+/* Header
+==================================================*/
+
+
+/* home section
+==================================================*/
+
+/* about section
+==================================================*/
+
+
+/* experience section
+==================================================*/
+
+
+/* projects section
+==================================================*/
+
+
+
+/* contact
+==================================================*/
+
+
+
+
+/* Responsive media queries
+==================================================*/
+
+}

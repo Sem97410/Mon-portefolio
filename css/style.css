@@ -1,9 +1,3 @@
-/*
-* Resume template
-* Created by : Ahmed Essa
-* website : www.ahmedessa.net
-*/
-
 
 /* Table of Content
 ==================================================
@@ -37,18 +31,18 @@ font-family: 'Open Sans', sans-serif;
 ==================================================*/
 
 h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 80px;
-    line-height: 70px;
+    font-family: var(--title-font1);
+    font-size: var(--h1-font-size);
+    line-height: var(--h1-font-height);
 }
 
 h4 {
-    font-family: 'Lato', sans-serif;
+    font-family: var(--title-font2);
     text-transform: capitalize;
     letter-spacing: 2px;
     position: relative;
-    color: #425BB5;
-    margin-left: 40px;
+    color: var(--main-site-special-text-color);
+    margin-left: var(--h4-margin);
     font-weight: 700;
 }
 
@@ -59,7 +53,7 @@ h4:before {
     content: "";
     display: block;
     height: 2px;
-    background: #425BB5;
+    background: var(--main-site-special-text-color);
     top: 9px;
 }
 
@@ -128,7 +122,7 @@ body {
     width: 100%;
     -webkit-animation: rotation 1s linear infinite;
     animation: rotation 1s linear infinite;
-    border: 2px solid #425BB5;
+    border: 2px solid var(--main-site-special-text-color);
     border-top: 2px solid transparent;
     border-radius: 100%
 }
@@ -228,7 +222,7 @@ header {
     text-align: center;
     -webkit-transition: all .5s;
     transition: all .5s;
-    height: 65px;
+    height: 85px;                   /*Navbar height*/
 }
 
 nav ul {
@@ -269,12 +263,12 @@ a:focus {
 }
 
 a:hover {
-    color: #425BB5;
+    color: var(--main-site-special-text-color);
     text-decoration: none;
 }
 
 a.active {
-    color: #425BB5;
+    color: var(--main-site-special-text-color);
 }
 
 
@@ -282,7 +276,7 @@ a.active {
 ==================================================*/
 
 #home {
-    background: url(../img/home-bg-2.jpg);
+    background: url(../img/header-background.jpg);
     background-size: cover;
     height: 100vh;
 }
@@ -311,7 +305,7 @@ a.active {
 
 .about-border {
     position: absolute;
-    border: 10px solid #425BB5;
+    border: 10px solid var(--main-site-special-text-color);
     width: 400px;
     height: 400px;
     top: 30px;
@@ -337,7 +331,7 @@ a.active {
     font-family: 'Lato', sans-serif;
     text-transform: capitalize;
     letter-spacing: 2px;
-    color: #425BB5;
+    color: var(--main-site-special-text-color);
     font-size: 16px;
     font-weight: bold
 }
@@ -377,11 +371,11 @@ a.active {
 .timeline-event:hover .timeline-event-icon {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    background-color: #425BB5;
+    background-color: var(--main-site-special-text-color);
 }
 
 .timeline-event:hover .timeline-event-thumbnail {
-    box-shadow: inset 40em 0 0 0 #425BB5;
+    box-shadow: inset 40em 0 0 0 var(--main-site-special-text-color);
 }
 
 .timeline-event-copy {
@@ -416,7 +410,7 @@ a.active {
     transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
-    background-color: #425BB5;
+    background-color: var(--main-site-special-text-color);
     outline: 10px solid #f3f3f3;
     display: block;
     margin: 0.5em 0.5em 0.5em -0.5em;
@@ -438,7 +432,7 @@ a.active {
     font-size: 12px;
     font-weight: bold;
     background-color: black;
-    box-shadow: inset 0 0 0 0em #425BB5;
+    box-shadow: inset 0 0 0 0em var(--main-site-special-text-color);
     display: inline-block;
     margin-bottom: 1.2em;
     padding: 0.25em 1em 0.2em 1em;
@@ -478,7 +472,7 @@ a.active {
 }
 
 .portfolio .categories-grid .categories ul li a.active {
-    background-color: #425BB5;
+    background-color: var(--main-site-special-text-color);
     padding: 0px 20px;
     color: white;
     text-decoration: none;
@@ -501,7 +495,7 @@ a.active {
     left: 0px;
     height: 100%;
     width: 100%;
-    background-color: #425BB5;
+    background-color: var(--main-site-special-text-color);
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     opacity: 0;
@@ -536,7 +530,7 @@ a.active {
 .portfolio_item .portfolio_item_hover .item_info em {
     font-style: normal;
     display: inline-block;
-    background-color: #425BB5;
+    background-color: var(--main-site-special-text-color);
     padding: 5px 20px;
     color: #fff;
     margin-top: 10px;
@@ -710,11 +704,11 @@ fieldset {
 }
 
 #success p {
-    color: #425BB5;
+    color: var(--main-site-special-text-color);
     font-size: 15px;
     text-align: center;
     padding: 10px;
-    border: 2px solid #425BB5;
+    border: 2px solid var(--main-site-special-text-color);
     margin-top: 10px;
 }
 
@@ -728,7 +722,7 @@ fieldset {
 }
 
 #submit {
-    background-color: #425BB5;
+    background-color: var(--main-site-special-text-color);
     color: #fff;
     padding: 10px 40px;
     border-radius: 0;
@@ -757,7 +751,7 @@ fieldset {
 }
 
 .social li a:hover {
-    color: #425BB5;
+    color: var(--main-site-special-text-color);
 }
 
 
