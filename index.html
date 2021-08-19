@@ -374,19 +374,34 @@
         <div class="container">
             <div class="col-md-12">
                 <h4>05</h4>
-                <form name="contact" method="POST" data-netlify="true">
-                    <p>
-                      <label>Votre nom: <input type="text" name="name" /></label>   
-                    </p>
-                    <p>
-                      <label>Votre mail: <input type="email" name="email" /></label>
-                    </p>
-                    <p>
-                      <label>Votre message: <textarea name="message"></textarea></label>
-                    </p>
-                    <p>
-                      <button type="submit">Envoyer</button>
-                    </p>
+                <h1 class="size-50">Restons en contact!</h1> 
+                <form>
+                    <div class="form-group">
+                        <label for="formName1">Votre nom</label>
+                        <input type="text" class="form-control" id="formName1" placeholder="Votre nom">
+                      </div>
+                      <div class="form-group">
+                        <label for="formName2">Votre nom</label>
+                        <input type="text" class="form-control" id="formName2" placeholder="Votre prenom">
+                      </div>
+                      <div class="form-group">
+                        <label for="sujet">Sujet</label>
+                        <input type="text" class="form-control" id="entreprise" placeholder="Pourquoi voulez vous me contacter?">
+                      </div>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Votre mail</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="telephone">Votre numéro de téléphone</label>
+                        <input type="tel" class="form-control" id="telephone" placeholder="Votre telephone">
+                    </div>      
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox"> Je ne suis pas un robot
+                      </label>
+                    </div>
+                    <button type="submit" class="btn btn-default">Envoyer</button>
                   </form>
 
 
