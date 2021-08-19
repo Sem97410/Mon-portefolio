@@ -33,17 +33,24 @@ font-family: 'Open Sans', sans-serif;
   --h1-font-size : 80px;
   --h1-font-height : 70px;
 
+  --h2-font-size : 50px;
+
   /*Font-color*/
 
   /*Font margin*/
   --h4-margin : 40px;
 
   /*Font-weight*/
+  --bold : 700;
+  /*Font style*/
+  --letter-spacing : 2px;
+
+ /* ==================================================*/
 
 /* General
 
  /* Main site color  */
- --main-site-special-text-color : #425BB5;
+ --main-site-special-text-color : #AD772B;
  
 
 

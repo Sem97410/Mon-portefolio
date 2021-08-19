@@ -4,6 +4,7 @@
 
 //const { $ } = require("dom7");
 
+
 $(window).load(function () {
     "use strict";
     // makes sure the whole site is loaded
