@@ -34,19 +34,43 @@ h1 {
     font-family: var(--title-font1);
     font-size: var(--h1-font-size);
     line-height: var(--h1-font-height);
+    /* text-shadow: -30px 30px 10px black ; */
 }
+.shadow{
+    color:black;
+    opacity: 0.05;
+}
+h2{
+    
+    /* text-shadow:  #e7eff4 0px 0 10px; */
+    /* text-shadow: -30px 15px 11px black ; */
+    
+    font-size: var(--h2-font-size);
 
-h4 {
+}
+h4, h2 {
     font-family: var(--title-font2);
     text-transform: capitalize;
-    letter-spacing: 2px;
+    letter-spacing:var(--letter-spacing);
     position: relative;
     color: var(--main-site-special-text-color);
     margin-left: var(--h4-margin);
-    font-weight: 700;
+    /* font-weight: var(--bold); */
 }
 
-h4:before {
+h2:before{ /*Decoration bar*/
+    position: absolute;
+    width: 30px;
+    left: -40px;
+    content: "";
+    display: block;
+    height: 3px;
+    background: var(--main-site-special-text-color);
+    top: 27px;
+    text-shadow: -30px 15px 10px black ;
+}
+
+h4:before  { /*Decoration bar*/
     position: absolute;
     width: 30px;
     left: -40px;
@@ -57,6 +81,9 @@ h4:before {
     top: 9px;
 }
 
+.nav-font-size{
+    font-size: 10px;
+}
 
 /* General
 ==================================================*/
@@ -234,6 +261,9 @@ nav ul {
     -webkit-transition: all .5s;
     transition: all .5s;
 }
+.header-link{
+    font-size: var(--h4-font-size);
+}
 
 nav li {
     display: inline-block;
@@ -242,10 +272,10 @@ nav li {
 
 nav li a {
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: var(--letter-spacing);
     color: #444;
     font-size: 11px;
-    font-weight: bold;
+    font-weight: var(--bold);
 }
 
 .bg-nav {
@@ -330,10 +360,10 @@ a.active {
 .experience-row h3 {
     font-family: 'Lato', sans-serif;
     text-transform: capitalize;
-    letter-spacing: 2px;
+    letter-spacing: var(--letter-spacing);
     color: var(--main-site-special-text-color);
     font-size: 16px;
-    font-weight: bold
+    font-weight: var(--bold)
 }
 
 .experience-row p {
@@ -396,7 +426,7 @@ a.active {
 }
 
 .timeline-event-copy strong {
-    font-weight: 700;
+    font-weight: var(--bold);
 }
 
 .timeline-event-copy p:not(.timeline-event-thumbnail) {
@@ -430,7 +460,7 @@ a.active {
     transition: box-shadow 0.5s ease-in 0.1s;
     color: white;
     font-size: 12px;
-    font-weight: bold;
+    font-weight: var(--bold);
     background-color: black;
     box-shadow: inset 0 0 0 0em var(--main-site-special-text-color);
     display: inline-block;
@@ -513,7 +543,7 @@ a.active {
     transform: translate(-50%, -50%);
     padding: 10px;
     width: 100%;
-    font-weight: bold;
+    font-weight: var(--bold);
 }
 
 .portfolio_item .portfolio_item_hover .item_info span {
@@ -540,7 +570,7 @@ a.active {
     transition: all .3s ease-in-out .3s;
     opacity: 0;
     font-size: 10px;
-    letter-spacing: 2px;
+    letter-spacing: var(--letter-spacing);
 }
 
 .portfolio_item:hover .portfolio_item_hover {
@@ -733,8 +763,8 @@ fieldset {
     padding: 10px 40px;
     border-radius: 0;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: bold;
+    letter-spacing: var(--letter-spacing);
+    font-weight: var(--bold);
     width: 100%;
 }
 
@@ -767,6 +797,9 @@ fieldset {
 @media (max-width: 991px) {
     .portfolio .categories-grid .categories ul li a {
         padding: 0 2px;
+    }
+    .shadow{
+        display: none; /**/
     }
 }
 
