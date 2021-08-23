@@ -261,6 +261,9 @@ nav ul {
     -webkit-transition: all .5s;
     transition: all .5s;
 }
+.header-link{
+    font-size: var(--h4-font-size);
+}
 
 nav li {
     display: inline-block;
@@ -794,6 +797,9 @@ fieldset {
 @media (max-width: 991px) {
     .portfolio .categories-grid .categories ul li a {
         padding: 0 2px;
+    }
+    .shadow{
+        display: none; /**/
     }
 }
 

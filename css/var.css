@@ -34,6 +34,7 @@ font-family: 'Open Sans', sans-serif;
   --h1-font-height : 70px;
 
   --h2-font-size : 50px;
+  --h4-font-size : 15px;
 
   /*Font-color*/
 
@@ -50,7 +51,7 @@ font-family: 'Open Sans', sans-serif;
 /* General
 
  /* Main site color  */
- --main-site-special-text-color : #AD772B;
+ --main-site-special-text-color : #E4C64F;
  
 
 
