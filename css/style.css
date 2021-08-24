@@ -29,7 +29,9 @@ font-family: 'Open Sans', sans-serif;
 
 /* typography
 ==================================================*/
-
+.none{
+    display:none;
+}
 h1 {
     font-family: var(--title-font1);
     font-size: var(--h1-font-size);
