@@ -34,7 +34,7 @@ font-family: 'Open Sans', sans-serif;
   --h1-font-height : 70px;
 
   --h2-font-size : 50px;
-  --h4-font-size : 15px;
+  --h4-font-size : 15px; /*Include navbar link*/
 
   /*Font-color*/
 
