@@ -26,6 +26,10 @@ font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
 */
 
+.right{
+    
+    float: right;
+}
 
 /* typography
 ==================================================*/
@@ -102,7 +106,6 @@ body {
 .h-50 {
     height: 50px;
 }
-
 
 /* preloader
 ==================================================*/
@@ -193,6 +196,7 @@ body {
         margin-top: -30px;
         margin-left: -30px
     }
+   
     .preloader>.icon {
         height: 50px;
         width: 21.2px;
@@ -801,6 +805,9 @@ fieldset {
     .shadow{
         display: none; /**/
     }
+    .right{
+        float: bottom ;                                                             /*TEEEEEEEEEEST*/
+     }
 }
 
 @media (max-width: 768px) {
