@@ -30,6 +30,9 @@ font-family: 'Open Sans', sans-serif;
     
     float: right;
 }
+.mob-button{
+    display: none;
+}
 
 /* typography
 ==================================================*/
@@ -808,12 +811,31 @@ fieldset {
     .right{
         float: bottom ;                                                             /*TEEEEEEEEEEST*/
      }
+     .about-border {
+        border: none;
+    }
+    h2{
+        font-size: 40px;
+    }
+    .desk-button{
+        display: none;
+    }
+    .mob-button{
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
 }
 
 @media (max-width: 768px) {
     .timeline-event-copy {
         width: 90%;
         left: 2em;
+    }
+    .about-border {
+        width: 265px;
     }
 }
 
